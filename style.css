@@ -1,0 +1,106 @@
+main{
+    margin: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    box-shadow: 3px 3px rgb(241, 239, 236);
+    
+}
+*{
+    box-sizing: border-box;
+}
+section {
+    padding: 15px;
+    background-color: rgb(241, 239, 236);
+    
+}
+.head{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 30px;
+    padding-top: 20px;
+}
+.nev{
+    text-align: center;
+}
+section, .nev, h1{
+    margin: 10px 0px 0 0px;
+    font-size: 30px;
+}
+.nev, h3{
+    margin: 0 0px 0 0px;
+    font-size:25px ;
+}
+p{
+    margin: 5px 0 2px 0;
+}
+section img, .prof{
+    height: 100px;
+    border-radius: 100%;
+}
+section img, .icon{
+    height: 30px;
+}
+h2{
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+section ul .hely, li {
+    list-style-image: url("kepek/icons8-location-30.png");
+}
+section ul .email, li {
+    list-style-image: url("kepek/icons8-mail-30.png");
+}
+section ul .tel, li {
+    list-style-image: url("kepek/icons8-call-30.png");
+}
+section ul .facebook, li{
+    list-style-image: url("kepek/icons8-facebook-30.png");
+}
+section ul .insta, li {
+    list-style-image: url("kepek/icons8-instagram-30.png");
+}
+section ul .oktatas, li {
+    list-style-image:url("kepek/points.png");
+}
+section ul li, p{
+    font-size: 20px;
+}
+img{
+    width: 100%;
+}
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+aside{
+    padding: 15px;
+}
+aside ul li{
+    display: inline-block;
+    margin-right: 40px; 
+}
+.szoveg{
+    text-align: justify;
+}
+.bal{
+    text-align: left;
+}
+aside p {
+    text-align: center;
+}
+aside ul{
+    list-style-type: disc;
+    padding: 0;
+}
+.sotet{
+    background-color: grey;
+    color:white;
+}
+@media screen and (max-width:730px) {
+    main{
+        grid-template-columns: 1fr; 
+    }
+}
+
